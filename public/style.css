@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Guerrilla&family=Protest+Revolution&family=Rubik+Glitch+Pop&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(121, 41, 41);
+}
+
+.navbar {
+    width: 100%;
+    height: 600px;
+    position: fixed;
+    background: url(ict3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    fill: palevioletred;
+}
+
+.logo1{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    
+    font-family: "Love Ya Like A Sister";
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.logo2{
+    position: relative;
+    top: 49px;
+    left: -205px;
+   font-size: 30px;
+    font-family: "Love Ya Like A Sister";
+    border-radius: 30px;
+    
+}
+
+.logo3{
+    position: relative;
+    top: 49px;
+    left: -205px;
+   font-size: 30px;
+    font-family: "Love Ya Like A Sister";
+    border-radius: 30px;
+    color: palevioletred;
+}
+
+.logo0{
+    height: 17px;
+    margin: 3px;
+    position: relative;
+    top: 5px;
+    
+}
+
+.logo01{
+    height: 19px;
+    margin: 3px;
+    position: relative;
+    top: 2px;
+    
+}
+
+/* .end{
+    position: relative;
+    bottom: -410px;
+} */
+
+
+
+ul{
+    display: flex;
+    justify-content: end;
+   position: relative;
+   margin: 0;
+   top: -30px;
+   left: -20px;
+    list-style: none;
+    font-size: 20px;
+    font-family: "Protest Guerrilla";
+}
+
+ul a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(23, 20, 20);
+    cursor: pointer;
+}
+
+ul a:hover{
+    color: palevioletred;
+    border: 2px solid rgb(99, 95, 95);
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.training{
+    position: relative;
+    top: -2px;
+}
+    
+
+  
+  .end {
+    font-family: "Love Ya Like A Sister";
+    font-size: 20px; 
+    text-align: center;
+    position: relative;
+    bottom: -415px;
+   
+  }
+
+  b{
+    color: palevioletred;
+  }
+  
+  .end1{
+    font-family: "Love Ya Like A Sister";
+    font-size: 13px; 
+    text-align: right;
+    position: relative;
+    bottom: -410px;
+    left: -8px;
+    color: palevioletred;
+  }
+
+  .container{
+    width: 450px;
+    height: 550px;
+    margin-bottom: 100px;
+    border: 2px solid palevioletred;
+    text-align: center;
+    position: relative;
+    left: 34%;
+    top: 45px;
+    border-radius: 15px;
+    
+  }
+  
+  .iq{
+    font-size: 39px;
+    font-family: "Protest Revolution";
+    position: relative;
+    top: 15px;
+  }
+
+  .iq1{
+    font-size: 18px;
+    font-family: "Open Sans";
+    position: relative;
+    top: 5px;
+    color: whitesmoke;
+  }
+
+  #username{
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #email{
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #number{
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #description{
+    width: 380px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 18px;; 
+    
+  }
+
+  .iq2{
+    font-size: 18px;
+    font-family: "Open Sans";
+    position: relative;
+    top: 5px;
+    color: whitesmoke;
+  }
+
+  #btn_reg{
+    width: 280px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
+  #btn_reg:hover{
+    color: white;
+    background-color: palevioletred;
+    font-size: 30px;
+  }
+  
+  #msg{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .one{
+    width: 100%;
+    height: 600px;
+    background-color: palevioletred;
+  }
+
+  .two{
+    width: 100%;
+    text-align: center;
+    font-family: "Rubik Glitch Pop";
+    font-size: 70px;
+    position: relative;
+    top: 30px;
+    text-decoration: underline rgb(171, 166, 166);
+  }
+
+  .three{
+    width: 100%;
+    font-size: 29px;
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto;
+    line-height: 1.6;
+    color: rgb(71, 13, 13);
+    position: relative;
+    top: 40px;
+  }
+
+  .row1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 169, 194);
+}
+
+.row1 .card1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    background-image: url(ict1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row1 .card2{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    background-image: url(ict2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row1 .card3{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    background-image: url(lap1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 129, 129);
+}
+
+
+.row2 .card1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    background-image: url(lap2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row2 .card2{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    background-image: url(lap3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row2 .card3{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin: 5px;
+    background-image: url(lap4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.last{
+    fill: white;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    width: 40px;
+    font-size: 30px;
+    top: -755px;
+}
+
+.last1{
+    fill: white;
+    background-color: white;
+    position: relative;
+    left: 1200px;
+    width: 40px;
+    font-size: 30px;
+    top: -785px;
+}
+
+.last3{
+    
+   font-size: 30px;
+    position: relative;
+    left: 12px;
+    top: -170px;
+   background-color: white;
+   width: 40px;
+}
